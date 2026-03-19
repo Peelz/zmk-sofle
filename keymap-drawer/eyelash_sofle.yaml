@@ -84,12 +84,12 @@ layers:
   - '2'
   - '3'
   - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - '&mkp MB4'
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - PG UP
+  - END
+  - $$mdi:arrow-up-bold$$
+  - HOME
   - {t: '-', s: _}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
