@@ -28,17 +28,17 @@ layers:
   - P
   - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-control$$
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: F, h: LEFT META}
+  - A
+  - S
+  - D
+  - F
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - {t: J, h: RIGHT META}
-  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
+  - J
+  - K
+  - L
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -55,14 +55,14 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - COPY
-  - AC PASTE
+  - $$mdi:apple-keyboard-option$$
   - LEFT META
   - Func
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - NumSym
-  - $$mdi:apple-keyboard-control$$
+  - RIGHT META
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
   NumSym:
