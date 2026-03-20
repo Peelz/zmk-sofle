@@ -57,11 +57,11 @@ layers:
   - COPY
   - $$mdi:apple-keyboard-option$$
   - LEFT META
-  - Func
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-space$$', h: Func}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - NumSym
+  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:keyboard-space$$', h: NumSym}
   - RIGHT META
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace$$', type: backspace}
