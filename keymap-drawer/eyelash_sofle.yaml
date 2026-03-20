@@ -29,16 +29,16 @@ layers:
   - {t: '`', s: '~'}
   - $$mdi:apple-keyboard-control$$
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: S, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
   - {t: F, h: LEFT META}
   - G
   - $$mdi:arrow-left-bold$$
   - H
   - {t: J, h: RIGHT META}
-  - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
+  - {t: K, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: ;, h: '$$mdi:apple-keyboard-shift$$', s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
@@ -54,8 +54,8 @@ layers:
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
+  - COPY
+  - AC PASTE
   - LEFT META
   - Func
   - $$mdi:keyboard-space$$
