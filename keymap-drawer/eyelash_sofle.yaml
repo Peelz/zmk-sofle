@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-option$$
   - LEFT META
   - {t: '$$mdi:keyboard-space$$', h: Func}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: NumSym}
