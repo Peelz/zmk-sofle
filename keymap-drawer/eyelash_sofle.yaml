@@ -56,9 +56,9 @@ layers:
   - $$mdi:volume-off$$
   - COPY
   - $$mdi:apple-keyboard-option$$
-  - LEFT META
+  - {t: '$$mdi:keyboard-space$$', h: LEFT META}
   - {t: '$$mdi:keyboard-space$$', h: Sys}
-  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-space$$', h: NumSym}
