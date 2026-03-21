@@ -104,7 +104,7 @@
 &trans     &trans           &trans           &trans           &trans        &trans          &mkp LCLK             &trans       &trans      &trans   &trans   &trans
             >;
 
-            display-name = "Func";
+            display-name = "Sys";
         };
 
         rgb_layer {
