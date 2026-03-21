@@ -92,7 +92,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - F12
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-caps$$
   - {t: '!', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '@', h: '$$mdi:apple-keyboard-shift$$'}
   - '#'
