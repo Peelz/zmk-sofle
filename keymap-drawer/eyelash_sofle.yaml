@@ -91,7 +91,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - F12
+  - {t: F12, h: PgUp}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '!', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '@', h: '$$mdi:apple-keyboard-shift$$'}
@@ -104,7 +104,7 @@ layers:
   - '*'
   - (
   - )
-  - '|'
+  - {t: '|', h: PgDn}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - {t: '-', s: _}
@@ -128,8 +128,8 @@ layers:
   - $$mdi:keyboard-space$$
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - PgUp
+  - PgDn
   Sys:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
