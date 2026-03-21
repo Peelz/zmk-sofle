@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NumSym}
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - RIGHT META
+  - LEFT META
   NumSym:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
