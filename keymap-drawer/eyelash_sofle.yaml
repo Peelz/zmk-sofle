@@ -79,7 +79,7 @@ layers:
   - F9
   - F10
   - F11
-  - $$mdi:keyboard-esc$$
+  - {t: '`', s: '~'}
   - '1'
   - '2'
   - '3'
@@ -92,7 +92,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - F12
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '!', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '@', h: '$$mdi:apple-keyboard-shift$$'}
   - '#'
