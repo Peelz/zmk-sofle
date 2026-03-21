@@ -47,6 +47,16 @@
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
         };
+
+        mouse_scroll_up {
+            bindings = <&msc SCRL_UP>;
+            key-positions = <6 59>;
+        };
+
+        scroll_down {
+            bindings = <&msc SCRL_DOWN>;
+            key-positions = <19 59>;
+        };
     };
 
     macros {
