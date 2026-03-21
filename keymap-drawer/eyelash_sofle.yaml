@@ -57,7 +57,7 @@ layers:
   - COPY
   - $$mdi:apple-keyboard-option$$
   - LEFT META
-  - {t: '$$mdi:keyboard-space$$', h: Func}
+  - {t: '$$mdi:keyboard-space$$', h: Sys}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Func:
+  Sys:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
