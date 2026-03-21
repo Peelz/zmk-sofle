@@ -14,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - '&td_double_tab'
   - Q
   - W
   - E
@@ -328,7 +328,3 @@ layers:
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
-- p: [6, 59]
-  k: $$mdi:pan-up$$
-- p: [19, 59]
-  k: $$mdi:pan-down$$
