@@ -94,8 +94,8 @@ layers:
   - {t: F12, h: PgUp}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '!', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '@', h: '$$mdi:apple-keyboard-shift$$'}
-  - '#'
+  - '@'
+  - {t: '#', h: '$$mdi:apple-keyboard-shift$$'}
   - $
   - '%'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
