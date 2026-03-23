@@ -58,6 +58,13 @@
         bindings = <&kp MINUS>, <&kp LS(MINUS)>;
     };
 
+    td_aerospace_goto: td_aerospace_goto {
+        compatible = "zmk,behavior-tap-dance";
+        label = "TD_AEROSPACE_GOTO";
+        #binding-cells = <0>;
+        bindings = <&kp SEMI>, <&aerospace_goto>;
+    };
+
     behaviors {
     };
 
@@ -84,6 +91,20 @@
                 <&kp LEFT_SHIFT &mkp MB3>;
 
             label = "SHIFT_MCLK";
+        };
+
+        aerospace_goto: aerospace_go_to {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&macro_press>,
+                <&kp LEFT_ALT>,
+                <&macro_press>,
+                <&kp LEFT_SHIFT>,
+                <&macro_press>,
+                <&kp SEMICOLON>;
+
+            label = "AEROSPACE_GO_TO";
         };
     };
 
