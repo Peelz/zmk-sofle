@@ -38,7 +38,7 @@ layers:
   - {t: J, h: LEFT META}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: L, h: '$$mdi:apple-keyboard-option$$'}
-  - '&aerospace_goto'
+  - '&td_aerospace_goto'
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
