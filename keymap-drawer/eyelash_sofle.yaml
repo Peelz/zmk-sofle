@@ -54,8 +54,8 @@ layers:
   - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-space$$', h: LEFT META}
   - {t: '$$mdi:keyboard-space$$', h: Sys}
   - {t: '$$mdi:keyboard-return$$', type: enter}
