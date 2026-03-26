@@ -82,6 +82,11 @@
             bindings = <&soft_off>;
             key-positions = <14 28 40>;
         };
+
+        combo_nav {
+            bindings = <&mo 2>;
+            key-positions = <56 60>;
+        };
     };
 
     macros {
@@ -127,7 +132,7 @@
 &td_double_tab         &kp Q               &kp W             &kp E                &kp R            &kp T            &kp DOWN_ARROW   &kp Y      &kp U        &kp I            &kp O          &kp P               &kp BSLH
 &mt LEFT_CONTROL CAPS  &mt LEFT_CONTROL A  &mt LEFT_ALT S    &mt LEFT_SHIFT D     &mt LEFT_META F  &kp G            &kp LEFT_ARROW   &kp H      &kp J        &kp K            &kp L          &td_aerospace_goto  &kp APOS
 &kp LEFT_SHIFT         &kp Z               &kp X             &kp C                &kp V            &kp B            &kp RIGHT_ARROW  &kp N      &kp M        &kp COMMA        &kp DOT        &kp SLASH           &kp RIGHT_SHIFT
-&kp C_MUTE             &kp LEFT_ALT        &kp LEFT_CONTROL  &mt LEFT_META SPACE  &lt 2 SPACE      &kp BACKSPACE    &kp ENTER        &kp ENTER  &lt 1 SPACE  &kp RIGHT_SHIFT  &kp RIGHT_ALT  &kp RCTRL
+&kp C_MUTE             &kp LEFT_ALT        &kp LEFT_CONTROL  &mt LEFT_META SPACE  &lt 3 SPACE      &kp BACKSPACE    &kp ENTER        &kp ENTER  &lt 1 SPACE  &kp RIGHT_SHIFT  &kp RIGHT_ALT  &kp RCTRL
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -147,7 +152,17 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        navigtion {
+        navigation {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &kp LEFT  &kp DOWN  &kp UP_ARROW  &kp RIGHT  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans        &trans     &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans        &trans     &trans
+            >;
+        };
+
+        config {
             bindings = <
 &bl BL_TOG       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp C_VOLUME_UP       &bt BT_CLR   &bt BT_CLR_ALL  &trans  &trans     &trans  &trans
 &rgb_ug RGB_TOG  &trans        &trans        &trans        &trans        &trans          &kp C_VOLUME_DOWN     &trans       &trans          &trans  &trans     &trans  &trans
@@ -156,7 +171,7 @@
 &trans           &trans        &trans        &trans        &trans        &trans          &mkp LCLK             &trans       &trans          &trans  &trans     &trans
             >;
 
-            display-name = "Navigation";
+            display-name = "Config";
         };
     };
 };
