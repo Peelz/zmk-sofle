@@ -147,16 +147,16 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        sys_layer {
+        navigtion {
             bindings = <
-&bl BL_TOG       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp C_VOLUME_UP       &bt BT_CLR   &bt BT_CLR_ALL  &trans  &trans  &trans  &trans
-&rgb_ug RGB_TOG  &trans        &trans        &trans        &trans        &trans          &kp C_VOLUME_DOWN     &trans       &trans          &trans  &trans  &trans  &trans
-&rgb_ug RGB_BRI  &trans        &trans        &trans        &trans        &trans          &kp C_BRI_DN          &trans       &trans          &trans  &trans  &trans  &trans
-&rgb_ug RGB_BRD  &trans        &trans        &trans        &sys_reset    &bootloader     &kp C_BRIGHTNESS_INC  &bootloader  &sys_reset      &trans  &trans  &trans  &trans
-&trans           &trans        &trans        &trans        &trans        &trans          &mkp LCLK             &trans       &trans          &trans  &trans  &trans
+&bl BL_TOG       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp C_VOLUME_UP       &bt BT_CLR   &bt BT_CLR_ALL  &trans  &trans     &trans  &trans
+&rgb_ug RGB_TOG  &trans        &trans        &trans        &trans        &trans          &kp C_VOLUME_DOWN     &trans       &trans          &trans  &trans     &trans  &trans
+&rgb_ug RGB_BRI  &trans        &trans        &trans        &trans        &trans          &kp C_BRI_DN          &kp LEFT     &kp DOWN        &kp UP  &kp RIGHT  &trans  &trans
+&rgb_ug RGB_BRD  &trans        &trans        &trans        &sys_reset    &bootloader     &kp C_BRIGHTNESS_INC  &bootloader  &sys_reset      &trans  &trans     &trans  &trans
+&trans           &trans        &trans        &trans        &trans        &trans          &mkp LCLK             &trans       &trans          &trans  &trans     &trans
             >;
 
-            display-name = "Sys";
+            display-name = "Navigation";
         };
     };
 };
