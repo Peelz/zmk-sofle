@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: NumSym}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-control$$
   NumSym:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
