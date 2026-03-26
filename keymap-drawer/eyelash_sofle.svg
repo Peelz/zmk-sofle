@@ -646,8 +646,8 @@ rect.held, rect.combo.held {
 <path d="M462,283 l-129,0" class="combo"/>
 <path d="M462,283 l129,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<a href="#navigation">
-<text x="462" y="283" class="combo tap layer-activator"><tspan style="font-size: 60%">navigation</tspan></text>
+<a href="#Nav">
+<text x="462" y="283" class="combo tap layer-activator">Nav</text>
 </a></g>
 </g>
 </g>
@@ -1002,13 +1002,13 @@ rect.held, rect.combo.held {
 <path d="M462,283 l-129,0" class="combo"/>
 <path d="M462,283 l129,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<a href="#navigation">
-<text x="462" y="283" class="combo tap layer-activator"><tspan style="font-size: 60%">navigation</tspan></text>
+<a href="#Nav">
+<text x="462" y="283" class="combo tap layer-activator">Nav</text>
 </a></g>
 </g>
 </g>
-<g transform="translate(40, 776)" class="layer-navigation">
-<text x="0" y="28" class="label" id="navigation">navigation:</text>
+<g transform="translate(40, 776)" class="layer-Nav">
+<text x="0" y="28" class="label" id="Nav">Nav:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 56)" class="key trans keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1337,8 +1337,8 @@ rect.held, rect.combo.held {
 <path d="M462,283 l-129,0" class="combo"/>
 <path d="M462,283 l129,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<a href="#navigation">
-<text x="462" y="283" class="combo tap layer-activator"><tspan style="font-size: 60%">navigation</tspan></text>
+<a href="#Nav">
+<text x="462" y="283" class="combo tap layer-activator">Nav</text>
 </a></g>
 </g>
 </g>
@@ -1688,8 +1688,8 @@ rect.held, rect.combo.held {
 <path d="M462,283 l-129,0" class="combo"/>
 <path d="M462,283 l129,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<a href="#navigation">
-<text x="462" y="283" class="combo tap layer-activator"><tspan style="font-size: 60%">navigation</tspan></text>
+<a href="#Nav">
+<text x="462" y="283" class="combo tap layer-activator">Nav</text>
 </a></g>
 </g>
 </g>

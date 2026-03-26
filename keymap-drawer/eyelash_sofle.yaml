@@ -130,7 +130,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
   - PgDn
-  navigation:
+  Nav:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -264,4 +264,4 @@ combos:
 - p: [14, 28, 40]
   k: '&soft_off'
 - p: [56, 60]
-  k: navigation
+  k: Nav
