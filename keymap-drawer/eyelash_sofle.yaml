@@ -26,7 +26,7 @@ layers:
   - I
   - O
   - P
-  - {t: '`', s: '~'}
+  - {t: \, s: '|'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
@@ -104,7 +104,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: '|', h: PgDn}
+  - {t: '''', s: '"'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - '&td_hyp_under'
