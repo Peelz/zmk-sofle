@@ -160,6 +160,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans        &trans     &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans    &trans    &trans        &trans     &trans
             >;
+
+            label = "Nav";
         };
 
         config {
