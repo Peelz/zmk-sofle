@@ -60,7 +60,7 @@ layers:
   - {t: '$$mdi:apple-keyboard-option$$', h: Config}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-esc$$', h: NumSym}
   - {t: '$$mdi:apple-keyboard-option$$', h: RIGHT META}
   - {t: '$$mdi:backspace$$', type: backspace}
