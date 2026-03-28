@@ -57,11 +57,11 @@ layers:
   - Config
   - Nav
   - LEFT META
-  - {t: '$$mdi:keyboard-space$$', h: Nav}
+  - {t: '$$mdi:keyboard-esc$$', h: Nav}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '$$mdi:keyboard-esc$$', h: NumSym}
+  - {t: '$$mdi:keyboard-space$$', h: NumSym}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   - RIGHT META
   - $$mdi:apple-keyboard-control$$
