@@ -56,9 +56,9 @@ layers:
   - $$mdi:volume-off$$
   - Config
   - Nav
-  - LEFT META
-  - {t: '$$mdi:keyboard-space$$', h: Nav}
-  - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '$$mdi:keyboard-space$$', h: LEFT META}
+  - {t: '$$mdi:keyboard-esc$$', h: Nav}
+  - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:keyboard-space$$', h: NumSym}
