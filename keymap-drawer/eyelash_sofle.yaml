@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
   - {t: '$$mdi:backspace$$', h: NumSym}
   - {t: '$$mdi:keyboard-space$$', h: '$$mdi:apple-keyboard-control$$'}
-  - RIGHT META
+  - $$mdi:keyboard-esc$$
   - $$mdi:apple-keyboard-control$$
   NumSym:
   - {t: '$$mdi:transfer$$', type: trans}
