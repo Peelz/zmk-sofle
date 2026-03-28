@@ -55,9 +55,9 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - Config
-  - Nav
-  - {t: '$$mdi:keyboard-space$$', h: LEFT META}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:keyboard-esc$$', h: Nav}
+  - {t: '$$mdi:keyboard-space$$', h: LEFT META}
   - {t: '$$mdi:backspace$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', h: '$$mdi:apple-keyboard-option$$'}
@@ -185,8 +185,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
