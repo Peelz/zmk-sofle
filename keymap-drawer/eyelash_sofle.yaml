@@ -38,7 +38,7 @@ layers:
   - J
   - K
   - L
-  - '&td_aerospace_goto'
+  - {t: ;, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - Z
