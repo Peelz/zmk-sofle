@@ -113,10 +113,10 @@ layers:
   - '}'
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: ;, s: ':'}
-  - ':'
-  - {t: \, s: '|'}
+  - {t: ']', h: RIGHT META, s: '}'}
+  - {t: '`', h: '$$mdi:apple-keyboard-shift$$', s: '~'}
+  - {t: '~', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: \, h: '$$mdi:apple-keyboard-option$$', s: '|'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
