@@ -51,7 +51,7 @@ layers:
   - {t: M, h: RIGHT META}
   - {t: ',', h: '$$mdi:apple-keyboard-shift$$', s: <}
   - {t: ., h: '$$mdi:apple-keyboard-control$$', s: '>'}
-  - {t: /, h: '$$mdi:apple-keyboard-shift$$', s: '?'}
+  - {t: /, h: '$$mdi:apple-keyboard-option$$', s: '?'}
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - Config
