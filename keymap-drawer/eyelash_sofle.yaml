@@ -24,8 +24,8 @@ layers:
   - Y
   - {t: U, h: RIGHT META}
   - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: O, h: '$$mdi:apple-keyboard-control$$'}
-  - {t: P, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: O, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: P, h: '$$mdi:apple-keyboard-control$$'}
   - {t: \, s: '|'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: A, h: '$$mdi:apple-keyboard-control$$'}
@@ -89,8 +89,8 @@ layers:
   - {t: '6', s: ^}
   - {t: '7', h: RIGHT META, s: '&'}
   - {t: '8', h: '$$mdi:apple-keyboard-shift$$', s: '*'}
-  - {t: '9', h: '$$mdi:apple-keyboard-control$$', s: (}
-  - {t: '0', h: '$$mdi:apple-keyboard-option$$', s: )}
+  - {t: '9', h: '$$mdi:apple-keyboard-option$$', s: (}
+  - {t: '0', h: '$$mdi:apple-keyboard-control$$', s: )}
   - {t: F12, h: '$$mdi:backspace$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '!', h: '$$mdi:apple-keyboard-control$$'}
