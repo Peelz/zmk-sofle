@@ -79,7 +79,7 @@ layers:
   - F9
   - F10
   - F11
-  - {t: '`', s: '~'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - '1'
   - '2'
   - '3'
@@ -104,7 +104,7 @@ layers:
   - '*'
   - (
   - )
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
   - '&td_hyp_under'
@@ -117,7 +117,7 @@ layers:
   - {t: '`', h: '$$mdi:apple-keyboard-shift$$', s: '~'}
   - {t: '~', h: '$$mdi:apple-keyboard-option$$'}
   - {t: \, h: '$$mdi:apple-keyboard-control$$', s: '|'}
-  - $$mdi:apple-keyboard-shift$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
