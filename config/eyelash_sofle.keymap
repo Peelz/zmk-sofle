@@ -142,9 +142,9 @@
         num_symbol_layer {
             bindings = <
 &trans      &kp F1                        &kp F2         &kp F3                &kp F4          &kp F5             &mmv MOVE_UP     &kp F6     &kp F7               &kp F8           &kp F9                &kp F10                      &kp F11
-&kp GRAVE   &kp NUMBER_1                  &kp NUMBER_2   &kp NUMBER_3          &kp NUMBER_4    &kp N5             &mmv MOVE_DOWN   &kp N6     &kp N7               &kp N8           &kp N9                &kp N0                       &mt BACKSPACE F12
-&trans      &mt LEFT_CONTROL EXCLAMATION  &kp AT_SIGN    &mt LEFT_SHIFT POUND  &kp DOLLAR      &kp PERCENT        &mmv MOVE_LEFT   &kp CARET  &kp AMPERSAND        &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS        &kp SQT
-&trans      &kp EQUAL                     &td_hyp_under  &kp PLUS              &kp LEFT_BRACE  &kp RIGHT_BRACE    &mmv MOVE_RIGHT  &kp LBKT   &mt RIGHT_META RBKT  &mt RSHFT GRAVE  &mt RIGHT_ALT TILDE   &mt RIGHT_CONTROL BACKSLASH  &kp RIGHT_SHIFT
+&trans      &kp NUMBER_1                  &kp NUMBER_2   &kp NUMBER_3          &kp NUMBER_4    &kp N5             &mmv MOVE_DOWN   &kp N6     &kp N7               &kp N8           &kp N9                &kp N0                       &mt BACKSPACE F12
+&trans      &mt LEFT_CONTROL EXCLAMATION  &kp AT_SIGN    &mt LEFT_SHIFT POUND  &kp DOLLAR      &kp PERCENT        &mmv MOVE_LEFT   &kp CARET  &kp AMPERSAND        &kp ASTERISK     &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS        &trans
+&trans      &kp EQUAL                     &td_hyp_under  &kp PLUS              &kp LEFT_BRACE  &kp RIGHT_BRACE    &mmv MOVE_RIGHT  &kp LBKT   &mt RIGHT_META RBKT  &mt RSHFT GRAVE  &mt RIGHT_ALT TILDE   &mt RIGHT_CONTROL BACKSLASH  &trans
 &kp C_MUTE  &trans                        &trans         &trans                &trans          &trans             &mkp LCLK        &trans     &trans               &trans           &kp PAGE_UP           &kp PAGE_DOWN
             >;
 
