@@ -80,30 +80,30 @@ layers:
   - F10
   - F11
   - {t: '$$mdi:transfer$$', type: trans}
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - {t: '5', s: '%'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - {t: '6', s: ^}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
   - {t: F12, h: '$$mdi:backspace$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '1', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: '2', h: '$$mdi:apple-keyboard-option$$'}
-  - {t: '3', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: '4', h: LGUI}
-  - {t: '5', s: '%'}
+  - {t: '!', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: '@', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '#', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: $, h: LGUI}
+  - '%'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - {t: '6', s: ^}
-  - {t: '7', h: RGUI, s: '&'}
-  - {t: '8', h: '$$mdi:apple-keyboard-shift$$', s: '*'}
-  - {t: '9', h: '$$mdi:apple-keyboard-option$$', s: (}
-  - {t: '0', h: '$$mdi:apple-keyboard-control$$', s: )}
+  - ^
+  - {t: '&', h: RGUI}
+  - {t: '*', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: (, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ), h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
