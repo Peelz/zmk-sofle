@@ -168,8 +168,8 @@
         num_symbol_layer {
             bindings = <
 &trans      &kp F1                        &kp F2         &kp F3                &kp F4          &kp F5             &mmv MOVE_UP     &kp F6     &kp F7             &kp F8        &kp F9                &kp F10                &kp F11
-&trans      &kp NUMBER_1                  &kp NUMBER_2       &kp NUMBER_3            &kp NUMBER_4        &kp N5             &mmv MOVE_DOWN   &kp N6     &kp N7                      &kp N8                      &kp N9                          &kp N0                       &mt BACKSPACE F12
-&trans      &hrm_left LCTRL EXCLAMATION   &hrm_left LALT AT_SIGN &hrm_left LSHFT POUND   &hrm_left LGUI DOLLAR  &kp PERCENT        &mmv MOVE_LEFT   &kp CARET  &hrm_right RGUI AMPERSAND  &hrm_right RSHFT ASTERISK   &hrm_right RALT LEFT_PARENTHESIS &hrm_right RCTRL RIGHT_PARENTHESIS   &trans
+&trans      &kp EXCLAMATION               &kp AT_SIGN        &kp POUND               &kp DOLLAR          &kp PERCENT        &mmv MOVE_DOWN   &kp CARET  &kp AMPERSAND               &kp ASTERISK                &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS        &mt BACKSPACE F12
+&trans      &hrm_left LCTRL NUMBER_1      &hrm_left LALT NUMBER_2 &hrm_left LSHFT NUMBER_3 &hrm_left LGUI NUMBER_4 &kp N5         &mmv MOVE_LEFT   &kp N6     &hrm_right RGUI N7         &hrm_right RSHFT N8         &hrm_right RALT N9              &hrm_right RCTRL N0          &trans
 &trans      &kp EQUAL                     &td_hyp_under  &kp PLUS              &kp LEFT_BRACE  &kp RIGHT_BRACE    &mmv MOVE_RIGHT  &kp LBKT   &kp RBKT           &kp GRAVE     &kp TILDE             &kp BACKSLASH          &trans
 &kp C_MUTE  &trans                        &trans         &trans                &trans          &trans             &mkp LCLK        &trans     &trans             &trans        &kp PAGE_UP           &kp PAGE_DOWN
             >;
