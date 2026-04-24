@@ -64,7 +64,7 @@ layers:
   - {t: '$$mdi:backspace-reverse-outline$$', h: NumSym}
   - {t: '$$mdi:keyboard-esc$$', h: '$$mdi:apple-keyboard-shift$$'}
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-esc$$
+  - Config
   NumSym:
   - {t: '$$mdi:transfer$$', type: trans}
   - F1
@@ -259,7 +259,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
 combos:
 - p: [14, 28, 40]
   k: '&soft_off'
