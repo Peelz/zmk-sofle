@@ -22,23 +22,23 @@ layers:
   - T
   - $$mdi:arrow-down-bold$$
   - Y
-  - {t: U, h: RIGHT META}
-  - {t: I, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: O, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: P, h: '$$mdi:apple-keyboard-control$$'}
+  - U
+  - I
+  - O
+  - P
   - {t: \, s: '|'}
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
-  - {t: A, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: A, h: '$$mdi:apple-keyboard-command$$'}
   - {t: S, h: '$$mdi:apple-keyboard-option$$'}
-  - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: F, h: LEFT META}
+  - {t: D, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: F, h: '$$mdi:apple-keyboard-shift$$'}
   - G
   - $$mdi:arrow-left-bold$$
   - H
-  - J
-  - K
-  - L
-  - {t: ;, s: ':'}
+  - {t: J, h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: K, h: '$$mdi:apple-keyboard-control$$'}
+  - {t: L, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ;, h: RIGHT GUI, s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
   - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
@@ -87,23 +87,23 @@ layers:
   - {t: '5', s: '%'}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '6', s: ^}
-  - {t: '7', h: RIGHT META, s: '&'}
-  - {t: '8', h: '$$mdi:apple-keyboard-shift$$', s: '*'}
-  - {t: '9', h: '$$mdi:apple-keyboard-option$$', s: (}
-  - {t: '0', h: '$$mdi:apple-keyboard-control$$', s: )}
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '0', s: )}
   - {t: F12, h: '$$mdi:backspace$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '!', h: '$$mdi:apple-keyboard-control$$'}
-  - '@'
-  - {t: '#', h: '$$mdi:apple-keyboard-shift$$'}
-  - $
+  - {t: '!', h: '$$mdi:apple-keyboard-command$$'}
+  - {t: '@', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '#', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: $, h: '$$mdi:apple-keyboard-shift$$'}
   - '%'
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - ^
-  - '&'
-  - '*'
-  - (
-  - )
+  - {t: '&', h: '$$mdi:apple-keyboard-shift$$'}
+  - {t: '*', h: '$$mdi:apple-keyboard-control$$'}
+  - {t: (, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: ), h: RIGHT GUI}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '=', s: +}
