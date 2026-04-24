@@ -4,3 +4,4 @@ modules/
 tools/
 .west/
 /zephyr
+.DS_Store
