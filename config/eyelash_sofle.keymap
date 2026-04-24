@@ -129,8 +129,8 @@
         default_layer {
             bindings = <
 &td_esc_grave          &kp N1              &kp N2          &kp N3            &kp N4               &kp N5       &kp UP_ARROW     &kp N6   &kp N7            &kp N8                  &kp N9           &kp N0               &kp BACKSPACE
-&td_double_tab         &kp Q               &kp W           &kp E             &kp R                &kp T        &kp DOWN_ARROW   &kp Y    &mt RIGHT_META U  &mt RIGHT_SHIFT I       &mt RIGHT_ALT O  &mt RIGHT_CONTROL P  &kp BSLH
-&mt LEFT_CONTROL CAPS  &mt LEFT_CONTROL A  &mt LEFT_ALT S  &mt LEFT_SHIFT D  &mt LEFT_META F      &kp G        &kp LEFT_ARROW   &kp H    &kp J             &kp K                   &kp L            &kp SEMI             &kp APOS
+&td_double_tab         &kp Q               &kp W           &kp E               &kp R                &kp T        &kp DOWN_ARROW   &kp Y    &kp U              &kp I                     &kp O            &kp P                &kp BSLH
+&mt LEFT_CONTROL CAPS  &mt LEFT_GUI A      &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F     &kp G        &kp LEFT_ARROW   &kp H    &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K       &mt RIGHT_ALT L  &mt RIGHT_GUI SEMI   &kp APOS
 &kp LEFT_SHIFT         &mt LEFT_SHIFT Z    &kp X           &kp C             &kp V                &kp B        &kp RIGHT_ARROW  &kp N    &kp M             &kp COMMA               &kp DOT          &kp SLASH            &kp RIGHT_SHIFT
 &kp C_MUTE             &mo 3               &kp LEFT_SHIFT  &kp LEFT_CONTROL  &mt LEFT_META SPACE  &lt 2 TAB    &kp ENTER        &kp RET  &lt 1 DELETE      &mt RIGHT_SHIFT ESCAPE  &kp LEFT_ALT     &kp ESCAPE
             >;
@@ -142,8 +142,8 @@
         num_symbol_layer {
             bindings = <
 &trans      &kp F1                        &kp F2         &kp F3                &kp F4          &kp F5             &mmv MOVE_UP     &kp F6     &kp F7             &kp F8        &kp F9                &kp F10                &kp F11
-&trans      &kp NUMBER_1                  &kp NUMBER_2   &kp NUMBER_3          &kp NUMBER_4    &kp N5             &mmv MOVE_DOWN   &kp N6     &mt RIGHT_META N7  &mt RSHFT N8  &mt RIGHT_ALT N9      &mt RIGHT_CONTROL N0   &mt BACKSPACE F12
-&trans      &mt LEFT_CONTROL EXCLAMATION  &kp AT_SIGN    &mt LEFT_SHIFT POUND  &kp DOLLAR      &kp PERCENT        &mmv MOVE_LEFT   &kp CARET  &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &trans
+&trans      &kp NUMBER_1                  &kp NUMBER_2       &kp NUMBER_3            &kp NUMBER_4        &kp N5             &mmv MOVE_DOWN   &kp N6     &kp N7                      &kp N8                      &kp N9                          &kp N0                       &mt BACKSPACE F12
+&trans      &mt LEFT_GUI EXCLAMATION      &mt LEFT_ALT AT_SIGN  &mt LEFT_CONTROL POUND  &mt LEFT_SHIFT DOLLAR  &kp PERCENT        &mmv MOVE_LEFT   &kp CARET  &mt RIGHT_SHIFT AMPERSAND  &mt RIGHT_CONTROL ASTERISK  &mt RIGHT_ALT LEFT_PARENTHESIS  &mt RIGHT_GUI RIGHT_PARENTHESIS  &trans
 &trans      &kp EQUAL                     &td_hyp_under  &kp PLUS              &kp LEFT_BRACE  &kp RIGHT_BRACE    &mmv MOVE_RIGHT  &kp LBKT   &kp RBKT           &kp GRAVE     &kp TILDE             &kp BACKSLASH          &trans
 &kp C_MUTE  &trans                        &trans         &trans                &trans          &trans             &mkp LCLK        &trans     &trans             &trans        &kp PAGE_UP           &kp PAGE_DOWN
             >;
