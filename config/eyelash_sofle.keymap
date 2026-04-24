@@ -1,6 +1,5 @@
 #define ZMK_POINTING_DEFAULT_MOVE_VAL 1200  // 600
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 25   // 10
-
 #define LEFT_HAND_POSITIONS  0 1 2 3 4 5 13 14 15 16 17 18 26 27 28 29 30 31 39 40 41 42 43 44 53 54 55 56 57
 #define RIGHT_HAND_POSITIONS 7 8 9 10 11 12 20 21 22 23 24 25 33 34 35 36 37 38 46 47 48 49 50 51 59 60 61 62 63
 
@@ -154,11 +153,11 @@
 
         default_layer {
             bindings = <
-&td_esc_grave          &kp N1              &kp N2          &kp N3            &kp N4               &kp N5       &kp UP_ARROW     &kp N6   &kp N7            &kp N8                  &kp N9           &kp N0               &kp BACKSPACE
-&td_double_tab         &kp Q               &kp W           &kp E               &kp R                &kp T        &kp DOWN_ARROW   &kp Y    &kp U              &kp I                     &kp O            &kp P                &kp BSLH
-&mt LEFT_CONTROL CAPS  &hrm_left LCTRL A   &hrm_left LALT S &hrm_left LSHFT D   &hrm_left LGUI F     &kp G        &kp LEFT_ARROW   &kp H    &hrm_right RGUI J  &hrm_right RSHFT K        &hrm_right RALT L &hrm_right RCTRL SEMI  &kp APOS
-&kp LEFT_SHIFT         &mt LEFT_SHIFT Z    &kp X           &kp C             &kp V                &kp B        &kp RIGHT_ARROW  &kp N    &kp M             &kp COMMA               &kp DOT          &kp SLASH            &kp RIGHT_SHIFT
-&kp C_MUTE             &mo 3               &kp LEFT_SHIFT  &kp LEFT_CONTROL  &mt LEFT_META SPACE  &lt 2 TAB    &kp ENTER        &kp RET  &lt 1 DELETE      &mt RIGHT_SHIFT ESCAPE  &kp LEFT_ALT     &kp ESCAPE
+&td_esc_grave          &kp N1             &kp N2            &kp N3             &kp N4               &kp N5       &kp UP_ARROW     &kp N6   &kp N7             &kp N8                  &kp N9             &kp N0                 &kp BACKSPACE
+&td_double_tab         &kp Q              &kp W             &kp E              &kp R                &kp T        &kp DOWN_ARROW   &kp Y    &kp U              &kp I                   &kp O              &kp P                  &kp BSLH
+&mt LEFT_CONTROL CAPS  &hrm_left LCTRL A  &hrm_left LALT S  &hrm_left LSHFT D  &hrm_left LGUI F     &kp G        &kp LEFT_ARROW   &kp H    &hrm_right RGUI J  &hrm_right RSHFT K      &hrm_right RALT L  &hrm_right RCTRL SEMI  &kp APOS
+&kp LEFT_SHIFT         &mt LEFT_SHIFT Z   &kp X             &kp C              &kp V                &kp B        &kp RIGHT_ARROW  &kp N    &kp M              &kp COMMA               &kp DOT            &kp SLASH              &kp RIGHT_SHIFT
+&kp C_MUTE             &mo 3              &kp LEFT_SHIFT    &kp LEFT_CONTROL   &mt LEFT_META SPACE  &lt 2 TAB    &kp ENTER        &kp RET  &lt 1 DELETE       &mt RIGHT_SHIFT ESCAPE  &kp LEFT_ALT       &mo 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
@@ -167,11 +166,11 @@
 
         num_symbol_layer {
             bindings = <
-&trans      &kp F1                        &kp F2         &kp F3                &kp F4          &kp F5             &mmv MOVE_UP     &kp F6     &kp F7             &kp F8        &kp F9                &kp F10                &kp F11
-&trans      &kp EXCLAMATION               &kp AT_SIGN        &kp POUND               &kp DOLLAR          &kp PERCENT        &mmv MOVE_DOWN   &kp CARET  &kp AMPERSAND               &kp ASTERISK                &kp LEFT_PARENTHESIS            &kp RIGHT_PARENTHESIS        &mt BACKSPACE F12
-&trans      &hrm_left LCTRL NUMBER_1      &hrm_left LALT NUMBER_2 &hrm_left LSHFT NUMBER_3 &hrm_left LGUI NUMBER_4 &kp N5         &mmv MOVE_LEFT   &kp N6     &hrm_right RGUI N7         &hrm_right RSHFT N8         &hrm_right RALT N9              &hrm_right RCTRL N0          &trans
-&trans      &kp EQUAL                     &td_hyp_under  &kp PLUS              &kp LEFT_BRACE  &kp RIGHT_BRACE    &mmv MOVE_RIGHT  &kp LBKT   &kp RBKT           &kp GRAVE     &kp TILDE             &kp BACKSLASH          &trans
-&kp C_MUTE  &trans                        &trans         &trans                &trans          &trans             &mkp LCLK        &trans     &trans             &trans        &kp PAGE_UP           &kp PAGE_DOWN
+&trans      &kp F1                    &kp F2                   &kp F3                    &kp F4                   &kp F5             &mmv MOVE_UP     &kp F6     &kp F7              &kp F8               &kp F9                &kp F10                &kp F11
+&trans      &kp EXCLAMATION           &kp AT_SIGN              &kp POUND                 &kp DOLLAR               &kp PERCENT        &mmv MOVE_DOWN   &kp CARET  &kp AMPERSAND       &kp ASTERISK         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &mt BACKSPACE F12
+&trans      &hrm_left LCTRL NUMBER_1  &hrm_left LALT NUMBER_2  &hrm_left LSHFT NUMBER_3  &hrm_left LGUI NUMBER_4  &kp N5             &mmv MOVE_LEFT   &kp N6     &hrm_right RGUI N7  &hrm_right RSHFT N8  &hrm_right RALT N9    &hrm_right RCTRL N0    &trans
+&trans      &kp EQUAL                 &td_hyp_under            &kp PLUS                  &kp LEFT_BRACE           &kp RIGHT_BRACE    &mmv MOVE_RIGHT  &kp LBKT   &kp RBKT            &kp GRAVE            &kp TILDE             &kp BACKSLASH          &trans
+&kp C_MUTE  &trans                    &trans                   &trans                    &trans                   &trans             &mkp LCLK        &trans     &trans              &trans               &kp PAGE_UP           &kp PAGE_DOWN
             >;
 
             display-name = "NumSym";
