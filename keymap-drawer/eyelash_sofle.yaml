@@ -96,11 +96,11 @@ layers:
   - {t: '`', h: '$$mdi:apple-keyboard-control$$', s: '~'}
   - {t: '-', h: '$$mdi:apple-keyboard-option$$', s: _}
   - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
-  - {t: '#', h: LGUI}
-  - {t: /, s: '?'}
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - {t: <, h: LGUI}
   - (
-  - {t: ), h: RGUI}
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - )
+  - {t: '>', h: RGUI}
   - {t: '*', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
@@ -108,14 +108,14 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - ^
   - $
-  - {t: '`', s: '~'}
+  - '#'
   - '{'
-  - '}'
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: '[', s: '{'}
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - {t: ']', s: '}'}
-  - <
-  - '>'
+  - '}'
+  - '&'
+  - '@'
   - {t: \, s: '|'}
   - F12
   - $$mdi:volume-off$$
