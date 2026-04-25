@@ -96,11 +96,11 @@ layers:
   - {t: '`', h: '$$mdi:apple-keyboard-control$$', s: '~'}
   - {t: '-', h: '$$mdi:apple-keyboard-option$$', s: _}
   - {t: '=', h: '$$mdi:apple-keyboard-shift$$', s: +}
-  - {t: <, h: LGUI}
-  - (
+  - {t: (, h: LGUI}
+  - <
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - )
-  - {t: '>', h: RGUI}
+  - '>'
+  - {t: ), h: RGUI}
   - {t: '*', h: '$$mdi:apple-keyboard-shift$$'}
   - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
   - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
