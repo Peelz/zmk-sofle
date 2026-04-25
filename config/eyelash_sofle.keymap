@@ -166,11 +166,11 @@
 
         num_symbol_layer {
             bindings = <
-&trans      &kp F1                 &kp F2                &kp F3                 &kp F4                           &kp F5              &mmv MOVE_UP     &kp F6             &kp F7                             &kp F8                     &kp F9                &kp F10                        &kp F11
-&trans      &kp NUMBER_1           &kp NUMBER_2          &kp NUMBER_3           &kp NUMBER_4                     &kp N5              &mmv MOVE_DOWN   &kp N6             &kp N7                             &kp N8                     &kp N9                &kp N0                         &kp DELETE
-&trans      &hrm_left LCTRL GRAVE  &hrm_left LALT MINUS  &hrm_left LSHFT EQUAL  &hrm_left LGUI LEFT_PARENTHESIS  &kp LESS_THAN       &mmv MOVE_LEFT   &kp GREATER_THAN   &hrm_right RGUI RIGHT_PARENTHESIS  &hrm_right RSHFT ASTERISK  &hrm_right RALT SEMI  &hrm_right RCTRL SINGLE_QUOTE  &trans
-&trans      &kp CARET              &kp DOLLAR            &kp HASH               &kp LEFT_BRACE                   &kp LEFT_BRACKET    &mmv MOVE_RIGHT  &kp RIGHT_BRACKET  &kp RIGHT_BRACE                    &kp AMPS                   &kp AT_SIGN           &kp BACKSLASH                  &kp F12
-&kp C_MUTE  &trans                 &trans                &trans                 &trans                           &trans              &mkp LCLK        &trans             &trans                             &trans                     &kp PAGE_UP           &kp PAGE_DOWN
+&trans      &kp F1                 &kp F2                &kp F3                 &kp F4                           &kp F5              &mmv MOVE_UP     &kp F6             &kp F7                             &kp F8                     &kp F9                       &kp F10                   &kp F11
+&trans      &kp NUMBER_1           &kp NUMBER_2          &kp NUMBER_3           &kp NUMBER_4                     &kp N5              &mmv MOVE_DOWN   &kp N6             &kp N7                             &kp N8                     &kp N9                       &kp N0                    &kp DELETE
+&trans      &hrm_left LCTRL GRAVE  &hrm_left LALT MINUS  &hrm_left LSHFT EQUAL  &hrm_left LGUI LEFT_PARENTHESIS  &kp LESS_THAN       &mmv MOVE_LEFT   &kp GREATER_THAN   &hrm_right RGUI RIGHT_PARENTHESIS  &hrm_right RSHFT ASTERISK  &hrm_right RALT EXCLAMATION  &hrm_right RCTRL PERCENT  &trans
+&trans      &kp CARET              &kp DOLLAR            &kp HASH               &kp LEFT_BRACE                   &kp LEFT_BRACKET    &mmv MOVE_RIGHT  &kp RIGHT_BRACKET  &kp RIGHT_BRACE                    &kp AMPS                   &kp AT_SIGN                  &kp BACKSLASH             &kp F12
+&kp C_MUTE  &trans                 &trans                &trans                 &trans                           &trans              &mkp LCLK        &trans             &trans                             &trans                     &kp PAGE_UP                  &kp PAGE_DOWN
             >;
 
             display-name = "NumSym";
