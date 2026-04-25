@@ -91,7 +91,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '0', s: )}
-  - {t: F12, h: '$$mdi:backspace$$'}
+  - $$mdi:backspace-reverse-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', h: '$$mdi:apple-keyboard-control$$', s: '~'}
   - {t: '-', h: '$$mdi:apple-keyboard-option$$', s: _}
@@ -117,7 +117,7 @@ layers:
   - <
   - '>'
   - {t: \, s: '|'}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F12
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
