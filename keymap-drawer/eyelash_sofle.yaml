@@ -41,7 +41,7 @@ layers:
   - {t: ;, h: '$$mdi:apple-keyboard-control$$', s: ':'}
   - {t: '''', s: '"'}
   - $$mdi:apple-keyboard-shift$$
-  - {t: Z, h: '$$mdi:apple-keyboard-shift$$'}
+  - Z
   - X
   - C
   - V
