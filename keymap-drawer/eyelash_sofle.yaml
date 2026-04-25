@@ -102,8 +102,8 @@ layers:
   - '>'
   - {t: ), h: RGUI}
   - {t: '*', h: '$$mdi:apple-keyboard-shift$$'}
-  - {t: ;, h: '$$mdi:apple-keyboard-option$$', s: ':'}
-  - {t: '''', h: '$$mdi:apple-keyboard-control$$', s: '"'}
+  - {t: '!', h: '$$mdi:apple-keyboard-option$$'}
+  - {t: '%', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - ^
