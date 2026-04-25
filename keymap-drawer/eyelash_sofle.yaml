@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - W
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-down-bold$$
+  - S
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - {t: D, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: F, h: LGUI}
   - G
-  - $$mdi:arrow-left-bold$$
+  - A
   - H
   - {t: J, h: RGUI}
   - {t: K, h: '$$mdi:apple-keyboard-shift$$'}
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:arrow-right-bold$$
+  - D
   - N
   - M
   - {t: ',', s: <}
