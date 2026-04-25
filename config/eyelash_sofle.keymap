@@ -153,11 +153,11 @@
 
         default_layer {
             bindings = <
-&td_esc_grave          &kp N1             &kp N2            &kp N3             &kp N4               &kp N5       &kp UP_ARROW     &kp N6   &kp N7             &kp N8                  &kp N9             &kp N0                 &kp BACKSPACE
-&td_double_tab         &kp Q              &kp W             &kp E              &kp R                &kp T        &kp DOWN_ARROW   &kp Y    &kp U              &kp I                   &kp O              &kp P                  &kp BSLH
-&mt LEFT_CONTROL CAPS  &hrm_left LCTRL A  &hrm_left LALT S  &hrm_left LSHFT D  &hrm_left LGUI F     &kp G        &kp LEFT_ARROW   &kp H    &hrm_right RGUI J  &hrm_right RSHFT K      &hrm_right RALT L  &hrm_right RCTRL SEMI  &kp APOS
-&kp LEFT_SHIFT         &mt LEFT_SHIFT Z   &kp X             &kp C              &kp V                &kp B        &kp RIGHT_ARROW  &kp N    &kp M              &kp COMMA               &kp DOT            &kp SLASH              &kp RIGHT_SHIFT
-&kp C_MUTE             &mo 3              &kp LEFT_SHIFT    &kp LEFT_CONTROL   &mt LEFT_META SPACE  &lt 2 TAB    &kp ENTER        &kp RET  &lt 1 BACKSPACE    &mt RIGHT_SHIFT ESCAPE  &kp LEFT_ALT       &mo 3
+&td_esc_grave          &kp N1             &kp N2            &kp N3             &kp N4            &kp N5              &kp UP_ARROW     &kp N6   &kp N7             &kp N8                  &kp N9             &kp N0                 &kp BACKSPACE
+&td_double_tab         &kp Q              &kp W             &kp E              &kp R             &kp T               &kp DOWN_ARROW   &kp Y    &kp U              &kp I                   &kp O              &kp P                  &kp BSLH
+&mt LEFT_CONTROL CAPS  &hrm_left LCTRL A  &hrm_left LALT S  &hrm_left LSHFT D  &hrm_left LGUI F  &kp G               &kp LEFT_ARROW   &kp H    &hrm_right RGUI J  &hrm_right RSHFT K      &hrm_right RALT L  &hrm_right RCTRL SEMI  &kp APOS
+&kp LEFT_SHIFT         &mt LEFT_SHIFT Z   &kp X             &kp C              &kp V             &kp B               &kp RIGHT_ARROW  &kp N    &kp M              &kp COMMA               &kp DOT            &kp SLASH              &kp RIGHT_SHIFT
+&kp C_MUTE             &mo 3              &kp LEFT_SHIFT    &kp LEFT_CONTROL   &lt 2 SPACE       &mt LEFT_GUI TAB    &kp ENTER        &kp RET  &lt 1 BACKSPACE    &mt RIGHT_SHIFT ESCAPE  &kp LEFT_ALT       &mo 3
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
