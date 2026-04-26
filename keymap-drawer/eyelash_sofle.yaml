@@ -57,11 +57,11 @@ layers:
   - Config
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:keyboard-space$$', h: LEFT META}
+  - {t: '$$mdi:keyboard-space$$', h: NumSym}
   - {t: '$$mdi:keyboard-tab$$', h: Nav}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', h: NumSym}
+  - {t: '$$mdi:backspace$$', h: Nav}
   - {t: '$$mdi:keyboard-esc$$', h: mouse}
   - $$mdi:apple-keyboard-option$$
   - Config
@@ -122,11 +122,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
   - PgDn
