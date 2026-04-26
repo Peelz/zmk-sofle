@@ -63,7 +63,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: NavPad}
   - $$mdi:keyboard-esc$$
-  - {t: AltGr+Ctl+;, s: 'AltGr+Ctl+:'}
+  - {t: AltGr+Sft+;, s: 'AltGr+Sft+:'}
   - Config
   NumSym:
   - {t: '$$mdi:transfer$$', type: trans}
