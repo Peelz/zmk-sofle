@@ -58,7 +58,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:keyboard-space$$', h: NumSym}
-  - {t: '$$mdi:keyboard-tab$$', h: Nav}
+  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: Nav}
@@ -188,10 +188,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
