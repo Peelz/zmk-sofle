@@ -177,7 +177,7 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        navigation {
+        navigation_numpad {
             bindings = <
 &trans  &trans    &trans    &trans     &trans  &trans    &msc SCRL_UP     &trans     &trans  &trans  &trans  &trans       &trans
 &trans  &trans    &kp UP    &trans     &trans  &trans    &msc SCRL_DOWN   &kp PLUS   &kp N7  &kp N8  &kp N9  &kp SLASH    &trans
@@ -186,7 +186,7 @@
 &trans  &trans    &trans    &trans     &trans  &trans    &trans           &trans     &trans  &kp N0  &trans  &trans
             >;
 
-            label = "Nav";
+            label = "NavPad";
         };
 
         config {
