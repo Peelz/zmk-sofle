@@ -62,8 +62,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: NavPad}
-  - $$mdi:keyboard-esc$$
-  - {t: AltGr+Sft+;, h: Mouse, s: 'AltGr+Sft+:'}
+  - {t: '$$mdi:keyboard-esc$$', h: Mouse}
+  - {t: AltGr+Sft+;, s: 'AltGr+Sft+:'}
   - Config
   NumSym:
   - {t: '$$mdi:transfer$$', type: trans}
@@ -322,8 +322,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [14, 28, 40]
