@@ -55,7 +55,7 @@ layers:
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:volume-off$$
   - Config
-  - Mouse
+  - {t: AltGr+Sft+;, h: Mouse, s: 'AltGr+Sft+:'}
   - NavPad
   - {t: '$$mdi:keyboard-space$$', h: NumSym}
   - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
