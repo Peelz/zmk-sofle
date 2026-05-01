@@ -45,7 +45,7 @@ layers:
   - X
   - C
   - V
-  - '&tap_b'
+  - B
   - $$mdi:arrow-right-bold$$
   - N
   - M
