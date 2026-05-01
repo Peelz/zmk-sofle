@@ -116,7 +116,7 @@
         };
 
         combo_nav {
-            bindings = <&mo 2>;
+            bindings = <&mo 4>;
             key-positions = <56 60>;
         };
     };
