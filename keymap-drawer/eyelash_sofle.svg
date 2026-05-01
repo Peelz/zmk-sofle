@@ -687,8 +687,8 @@ rect.held, rect.combo.held {
 <path d="M462,283 l-129,0" class="combo"/>
 <path d="M462,283 l129,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<a href="#NavPad">
-<text x="462" y="283" class="combo tap layer-activator">NavPad</text>
+<a href="#Mouse">
+<text x="462" y="283" class="combo tap layer-activator">Mouse</text>
 </a></g>
 </g>
 </g>
@@ -1048,8 +1048,8 @@ rect.held, rect.combo.held {
 <path d="M462,283 l-129,0" class="combo"/>
 <path d="M462,283 l129,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<a href="#NavPad">
-<text x="462" y="283" class="combo tap layer-activator">NavPad</text>
+<a href="#Mouse">
+<text x="462" y="283" class="combo tap layer-activator">Mouse</text>
 </a></g>
 </g>
 </g>
@@ -1347,9 +1347,10 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held"/>
 </g>
-<g transform="translate(314, 283) rotate(30.0)" class="key held alternate keypos-56">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
+<g transform="translate(314, 283) rotate(30.0)" class="key trans keypos-56">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
+<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
 <g transform="translate(389, 294) rotate(30.0)" class="key trans keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -1395,8 +1396,8 @@ rect.held, rect.combo.held {
 <path d="M462,283 l-129,0" class="combo"/>
 <path d="M462,283 l129,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<a href="#NavPad">
-<text x="462" y="283" class="combo tap layer-activator">NavPad</text>
+<a href="#Mouse">
+<text x="462" y="283" class="combo tap layer-activator">Mouse</text>
 </a></g>
 </g>
 </g>
@@ -1745,8 +1746,8 @@ rect.held, rect.combo.held {
 <path d="M462,283 l-129,0" class="combo"/>
 <path d="M462,283 l129,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<a href="#NavPad">
-<text x="462" y="283" class="combo tap layer-activator">NavPad</text>
+<a href="#Mouse">
+<text x="462" y="283" class="combo tap layer-activator">Mouse</text>
 </a></g>
 </g>
 </g>
@@ -2036,10 +2037,9 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(314, 283) rotate(30.0)" class="key trans keypos-56">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(314, 283) rotate(30.0)" class="key held alternate keypos-56">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
 </g>
 <g transform="translate(389, 294) rotate(30.0)" class="key trans keypos-57">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
@@ -2056,10 +2056,9 @@ rect.held, rect.combo.held {
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
 <use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
 </g>
-<g transform="translate(610, 283) rotate(-30.0)" class="key trans keypos-60">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans side"/>
-<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key trans"/>
-<use href="#mdi:transfer" xlink:href="#mdi:transfer" x="-9" y="-13" height="18" width="18.0" class="key trans tap glyph mdi:transfer"/>
+<g transform="translate(610, 283) rotate(-30.0)" class="key held alternate keypos-60">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
+<rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key held alternate"/>
 </g>
 <g transform="translate(672, 259)" class="key held alternate keypos-61">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held alternate side"/>
@@ -2084,8 +2083,8 @@ rect.held, rect.combo.held {
 <path d="M462,283 l-129,0" class="combo"/>
 <path d="M462,283 l129,0" class="combo"/>
 <rect rx="6" ry="6" x="448" y="270" width="28" height="26" class="combo"/>
-<a href="#NavPad">
-<text x="462" y="283" class="combo tap layer-activator">NavPad</text>
+<a href="#Mouse">
+<text x="462" y="283" class="combo tap layer-activator">Mouse</text>
 </a></g>
 </g>
 </g>
