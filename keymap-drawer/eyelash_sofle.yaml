@@ -56,12 +56,12 @@ layers:
   - $$mdi:volume-off$$
   - Config
   - {t: AltGr+Sft+;, h: Mouse, s: 'AltGr+Sft+:'}
-  - NavPad
-  - {t: '$$mdi:keyboard-space$$', h: NumSym}
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:apple-keyboard-command$$'}
+  - NumSym
+  - {t: '$$mdi:keyboard-space$$', h: LEFT META}
+  - {t: '$$mdi:keyboard-tab$$', h: NavPad}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: '$$mdi:backspace$$', h: NavPad}
+  - {t: '$$mdi:backspace$$', h: NumSym}
   - {t: '$$mdi:keyboard-esc$$', h: Mouse}
   - {t: AltGr+Sft+;, s: 'AltGr+Sft+:'}
   - Config
@@ -121,12 +121,12 @@ layers:
   - $$mdi:volume-off$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
   - PgDn
@@ -186,12 +186,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held alternate}
   - {t: '0', s: )}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
