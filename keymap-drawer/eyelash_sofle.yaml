@@ -58,7 +58,7 @@ layers:
   - {t: AltGr+Sft+;, h: Mouse, s: 'AltGr+Sft+:'}
   - NumSym
   - {t: '$$mdi:keyboard-space$$', h: LEFT META}
-  - {t: '$$mdi:keyboard-tab$$', h: NavPad}
+  - $$mdi:keyboard-tab$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: NumSym}
@@ -188,7 +188,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
