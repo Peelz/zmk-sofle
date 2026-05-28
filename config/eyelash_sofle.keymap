@@ -136,23 +136,6 @@
 
             label = "SHIFT_MCLK";
         };
-
-        aerospace_goto: aerospace_go_to {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&macro_press>,
-                <&kp LEFT_ALT>,
-                <&macro_press>,
-                <&kp LEFT_SHIFT>,
-                <&macro_tap>,
-                <&kp SEMICOLON>,
-                <&macro_pause_for_release>,
-                <&macro_release>,
-                <&kp LEFT_ALT &kp LEFT_SHIFT>;
-
-            label = "AEROSPACE_GO_TO";
-        };
     };
 
     keymap {
