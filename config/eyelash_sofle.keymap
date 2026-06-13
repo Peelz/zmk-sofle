@@ -181,11 +181,11 @@
 
         config {
             bindings = <
-&bl BL_TOG       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                         &kp C_VOLUME_UP       &bt BT_CLR      &bt BT_CLR_ALL  &trans  &trans     &trans  &trans
-&rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_COLOR_HSB(181,100,50)    &kp C_VOLUME_DOWN     &trans          &trans          &trans  &trans     &trans  &trans
-&rgb_ug RGB_BRI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(130,1,77)      &kp C_BRI_DN          &studio_unlock  &kp DOWN        &kp UP  &kp RIGHT  &trans  &trans
-&rgb_ug RGB_BRD  &trans           &trans           &trans           &sys_reset       &bootloader                          &kp C_BRIGHTNESS_INC  &bootloader     &sys_reset      &trans  &trans     &trans  &trans
-&trans           &trans           &trans           &trans           &trans           &trans                               &mkp LCLK             &trans          &trans          &trans  &trans     &trans
+&bl BL_TOG       &bt BT_SEL 0     &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3     &bt BT_SEL 4                         &kp C_VOLUME_UP       &bt BT_CLR      &bt BT_CLR_ALL  &trans        &trans     &trans  &trans
+&rgb_ug RGB_TOG  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF  &rgb_ug RGB_COLOR_HSB(181,100,50)    &kp C_VOLUME_DOWN     &trans          &trans          &kp UP_ARROW  &trans     &trans  &trans
+&rgb_ug RGB_BRI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR  &rgb_ug RGB_COLOR_HSB(130,1,77)      &kp C_BRI_DN          &studio_unlock  &kp DOWN        &kp UP        &kp RIGHT  &trans  &trans
+&rgb_ug RGB_BRD  &trans           &trans           &trans           &sys_reset       &bootloader                          &kp C_BRIGHTNESS_INC  &bootloader     &sys_reset      &trans        &trans     &trans  &trans
+&trans           &trans           &trans           &trans           &trans           &trans                               &mkp LCLK             &trans          &trans          &trans        &trans     &trans
             >;
 
             display-name = "Config";
