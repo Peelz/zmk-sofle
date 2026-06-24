@@ -683,6 +683,14 @@ rect.held, rect.combo.held {
 <a href="#Mouse">
 <text x="462" y="283" class="combo tap layer-activator">Mouse</text>
 </a></g>
+<g class="combo combopos-2">
+<path d="M462,259 l-303,0" class="combo"/>
+<path d="M462,259 l303,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
+<a href="#Game">
+<text x="462" y="259" class="combo tap layer-activator">Game</text>
+</a><text x="462" y="270" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 388)" class="layer-NumSym">
@@ -1043,6 +1051,14 @@ rect.held, rect.combo.held {
 <a href="#Mouse">
 <text x="462" y="283" class="combo tap layer-activator">Mouse</text>
 </a></g>
+<g class="combo combopos-2">
+<path d="M462,259 l-303,0" class="combo"/>
+<path d="M462,259 l303,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
+<a href="#Game">
+<text x="462" y="259" class="combo tap layer-activator">Game</text>
+</a><text x="462" y="270" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 776)" class="layer-NavPad">
@@ -1392,6 +1408,14 @@ rect.held, rect.combo.held {
 <a href="#Mouse">
 <text x="462" y="283" class="combo tap layer-activator">Mouse</text>
 </a></g>
+<g class="combo combopos-2">
+<path d="M462,259 l-303,0" class="combo"/>
+<path d="M462,259 l303,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
+<a href="#Game">
+<text x="462" y="259" class="combo tap layer-activator">Game</text>
+</a><text x="462" y="270" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1165)" class="layer-Config">
@@ -1762,6 +1786,14 @@ rect.held, rect.combo.held {
 <a href="#Mouse">
 <text x="462" y="283" class="combo tap layer-activator">Mouse</text>
 </a></g>
+<g class="combo combopos-2">
+<path d="M462,259 l-303,0" class="combo"/>
+<path d="M462,259 l303,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
+<a href="#Game">
+<text x="462" y="259" class="combo tap layer-activator">Game</text>
+</a><text x="462" y="270" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1553)" class="layer-Mouse">
@@ -2099,6 +2131,14 @@ rect.held, rect.combo.held {
 <a href="#Mouse">
 <text x="462" y="283" class="combo tap layer-activator">Mouse</text>
 </a></g>
+<g class="combo combopos-2">
+<path d="M462,259 l-303,0" class="combo"/>
+<path d="M462,259 l303,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
+<a href="#Game">
+<text x="462" y="259" class="combo tap layer-activator">Game</text>
+</a><text x="462" y="270" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1941)" class="layer-Game">
@@ -2467,6 +2507,14 @@ rect.held, rect.combo.held {
 <a href="#Mouse">
 <text x="462" y="283" class="combo tap layer-activator">Mouse</text>
 </a></g>
+<g class="combo combopos-2">
+<path d="M462,259 l-303,0" class="combo"/>
+<path d="M462,259 l303,0" class="combo"/>
+<rect rx="6" ry="6" x="448" y="246" width="28" height="26" class="combo"/>
+<a href="#Game">
+<text x="462" y="259" class="combo tap layer-activator">Game</text>
+</a><text x="462" y="270" class="combo hold">toggle</text>
+</g>
 </g>
 </g>
 </svg>

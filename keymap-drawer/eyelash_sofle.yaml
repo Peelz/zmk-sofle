@@ -395,3 +395,5 @@ combos:
   k: '&soft_off'
 - p: [56, 60]
   k: Mouse
+- p: [53, 63]
+  k: {t: Game, h: toggle}
