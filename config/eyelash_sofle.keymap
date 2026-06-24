@@ -112,6 +112,11 @@
             bindings = <&mo 4>;
             key-positions = <56 60>;
         };
+
+        toggle_mo_game {
+            bindings = <&tog 5>;
+            key-positions = <53 63>;
+        };
     };
 
     macros {
