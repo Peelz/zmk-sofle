@@ -60,13 +60,6 @@
         bindings = <&kp MINUS>, <&kp LS(MINUS)>;
     };
 
-    td_aerospace_goto: td_aerospace_goto {
-        compatible = "zmk,behavior-tap-dance";
-        label = "TD_AEROSPACE_GOTO";
-        #binding-cells = <0>;
-        bindings = <&kp SEMI>, <&aerospace_goto>;
-    };
-
     td_esc_grave: td_esc_grave {
         compatible = "zmk,behavior-tap-dance";
         label = "TD_ESC_GRAVE";
