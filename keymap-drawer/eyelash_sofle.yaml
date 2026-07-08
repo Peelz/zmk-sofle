@@ -326,7 +326,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   Game:
-  - '&td_esc_grave'
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -339,7 +339,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - '&td_double_tab'
+  - {t: '`', s: '~'}
   - Q
   - W
   - E
@@ -388,8 +388,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:backspace$$', h: NumSym}
   - {t: '$$mdi:keyboard-esc$$', h: Mouse}
-  - {t: AltGr+Sft+;, s: 'AltGr+Sft+:'}
-  - Config
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: Default, h: toggle}
   r_nav:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
